@@ -26,8 +26,8 @@ public class Member {
     private String phoneNumber;
     private String email;
     @CreatedDate
-    private LocalDateTime createdDateTime;
+    private LocalDateTime createdAt;
     @LastModifiedDate
-    private LocalDateTime lastModifiedDateTime;
-    private LocalDateTime lastActedDataTime;
+    private LocalDateTime lastModifiedAt;
+    private LocalDateTime lastActedAt;
 }

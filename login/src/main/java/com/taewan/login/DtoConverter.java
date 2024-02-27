@@ -14,9 +14,9 @@ public class DtoConverter {
                 .nickName(member.getNickName())
                 .email(member.getEmail())
                 .phoneNumber(member.getPhoneNumber())
-                .createdDateTime(member.getCreatedDateTime())
-                .lastModifiedDateTime(member.getLastModifiedDateTime())
-                .lastActedDataTime(member.getLastActedDataTime())
+                .createdAt(member.getCreatedAt())
+                .lastModifiedAt(member.getLastModifiedAt())
+                .lastActedAt(member.getLastActedAt())
                 .build();
     }
 }

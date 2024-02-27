@@ -13,12 +13,12 @@ public class MemberFullInfoDto {
     private String name;
     private String phoneNumber;
     private String email;
-    private LocalDateTime createdDateTime;
-    private LocalDateTime lastModifiedDateTime;
-    private LocalDateTime lastActedDataTime;
+    private LocalDateTime createdAt;
+    private LocalDateTime lastModifiedAt;
+    private LocalDateTime lastActedAt;
 
     @Builder
-    public MemberFullInfoDto(Long idx, String id, String password, String nickName, String name, String phoneNumber, String email, LocalDateTime createdDateTime, LocalDateTime lastModifiedDateTime, LocalDateTime lastActedDataTime) {
+    public MemberFullInfoDto(Long idx, String id, String password, String nickName, String name, String phoneNumber, String email, LocalDateTime createdAt, LocalDateTime lastModifiedAt, LocalDateTime lastActedAt) {
         this.idx = idx;
         this.id = id;
         this.password = password;
@@ -26,8 +26,8 @@ public class MemberFullInfoDto {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.email = email;
-        this.createdDateTime = createdDateTime;
-        this.lastModifiedDateTime = lastModifiedDateTime;
-        this.lastActedDataTime = lastActedDataTime;
+        this.createdAt = createdAt;
+        this.lastModifiedAt = lastModifiedAt;
+        this.lastActedAt = lastActedAt;
     }
 }
