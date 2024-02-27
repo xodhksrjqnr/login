@@ -9,5 +9,5 @@ import java.util.List;
 @AllArgsConstructor
 public class MemberFullInfoDtos {
 
-    private List<MemberFullInfoDto> dtos;
+    private List<MemberFullInfoDto> members;
 }
