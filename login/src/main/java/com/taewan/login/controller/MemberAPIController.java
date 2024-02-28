@@ -16,7 +16,7 @@ public class MemberAPIController {
     private final SearchMemberService memberService;
 
     @GetMapping
-    public MemberFullInfoDtos askForAllMembers(@RequestParam(name = "pageNumber", required = false, defaultValue = "1") int pageNumber) {
+    public MemberFullInfoDtos askForAllMembers(@RequestParam(name = "pageNumber", required = false, defaultValue = "0") int pageNumber) {
         return memberService.searchAllMember(pageNumber);
     }
 }

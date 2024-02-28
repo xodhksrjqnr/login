@@ -1,9 +1,11 @@
 package com.taewan.login.dto;
 
 import lombok.Builder;
+import lombok.Getter;
 
 import java.time.LocalDateTime;
 
+@Getter
 public class MemberFullInfoDto {
 
     private Long idx;
