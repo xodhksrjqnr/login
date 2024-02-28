@@ -1,4 +1,4 @@
-package com.taewan.login.controller;
+package com.taewan.login.controller.api;
 
 import com.taewan.login.dto.MemberFullInfoDtos;
 import com.taewan.login.service.SearchMemberService;
